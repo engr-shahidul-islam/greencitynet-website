@@ -68,3 +68,11 @@ All pages include an English/Bangla toggle in the header. The selection is saved
 
 
 Latest update: English-only interface. The language toggle and translation script have been removed. Services, Team and Contact pages received a professional responsive redesign. Coverage remains a highlighted lime-green header navigation item.
+
+## Formspree setup (Contact + Career)
+- Both `contact.html` and `careers.html` currently submit to `https://formspree.io/f/xjygwlkq` using AJAX in `js/app.js`.
+- In the Formspree dashboard, open this form and check **Settings** for the recipient/notification email. Verify the email if prompted.
+- Submit a test from the live website, then check the Formspree **Submissions** tab and the recipient email's Inbox/Spam folders.
+- Since both website forms share one endpoint, Contact enquiries and Career applications will appear in the same Formspree form. If you want them separated, create a second Formspree form for Careers and change only the `action` in `careers.html` to its new endpoint.
+- The optional CV upload may be limited by your Formspree plan. Test it before publishing.
+- For best results, host the website on your real domain or a local web server and test there; an email notification is not considered verified until you see the test submission arrive.

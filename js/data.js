@@ -2,15 +2,15 @@ window.GCN = {
   company: {
     name: "GREEN CITY NET",
     tagline: "Most Trusted Broadband of Gazipur",
-    address: "58, Samsul Haque Villa, Degerchala, Gazipur City Corporation, Gazipur 1704, Bangladesh"
+    address: "Degerchala, Gazipur City Corporation, Gazipur 1704, Bangladesh"
   },
   socialLinks: {
     facebook: "#", youtube: "#", whatsapp: "#", linkedin: "#"
   },
   contact: {
-    phone: "018-64-899822", email: "info@greencitynet.com"
+    phone: "01XXXXXXXXX", email: "info@greencitynet.example"
   },
-  coverage: ["Hariken", "Degerchala Road", "Amazing Fashion Ltd. Area", "Hanapukur", "Zajhor", "Moiran", "Hajir Pukur", "Mogorkhal", "Gazipur City Corporation"],
+  coverage: ["Hariken", "Degerchala Road", "Amazing Fashion Ltd. Area", "Hanapukur", "Zajhor", "Moiran", "Hajir Pukur", "Degerchala", "Gazipur City Corporation"],
   networkCredentials: {
     licence: "BTRC-licensed Internet Service Provider",
     iig: "Layer 3 IIG connectivity",
@@ -18,20 +18,20 @@ window.GCN = {
     note: "Upstream availability and routing may vary by service area and network configuration."
   },
   oneCountryPackages: [
-    {name:"GCN 20", speed:"20 Mbps", price:"৳ 500", features:["Fiber Internet", "Local FTP Access", "Standard Support"]},
-    {name:"GCN 30", speed:"30 Mbps", price:"৳ 700", features:["Fiber Internet", "Local FTP Access", "Multiple Device Support"]},
-    {name:"GCN 50", speed:"50 Mbps", price:"৳ 1000", features:["Fiber Internet", "Premium FTP Access", "Priority Support"]}
+    {name:"GCN 20", speed:"20 Mbps", price:"৳ XXX", features:["Fiber Internet", "Local FTP Access", "Standard Support"]},
+    {name:"GCN 30", speed:"30 Mbps", price:"৳ XXX", features:["Fiber Internet", "Local FTP Access", "Multiple Device Support"]},
+    {name:"GCN 50", speed:"50 Mbps", price:"৳ XXX", features:["Fiber Internet", "Premium FTP Access", "Priority Support"]}
   ],
   packages: [
-    {category:"Premium", name:"Premium 20", speed:"20 Mbps", price:"৳ 600", features:["Fiber Internet","Premium FTP","24/7 Support"]},
-    {category:"Premium", name:"Premium 30", speed:"30 Mbps", price:"৳ 800", features:["Fiber Internet","Premium FTP","Low Latency"]},
-    {category:"Premium", name:"Premium 50", speed:"50 Mbps", price:"৳ 1200", features:["Fiber Internet","Priority Support","Multiple Devices"]},
-    {category:"SME", name:"SME 10", speed:"10 Mbps", price:"৳ 2000", features:["Business Connectivity","FTP Access","Support"]},
-    {category:"SME", name:"SME 20", speed:"20 Mbps", price:"৳ 4000", features:["Business Connectivity","Static IP Option","Priority Support"]},
-    {category:"SME", name:"SME 30", speed:"30 Mbps", price:"৳ 6500", features:["Business Connectivity","Static IP Option","Priority Support"]},
-    {category:"Corporate", name:"Corporate 50", speed:"50 Mbps", price:"৳ 6000", features:["Business-grade Internet","Static IP Option","Technical Support"]},
-    {category:"Corporate", name:"Corporate 100", speed:"100 Mbps", price:"৳ 10000", features:["Scalable Bandwidth","Static IP Option","Priority Support"]},
-    {category:"Corporate", name:"Corporate 200", speed:"200 Mbps", price:"৳ 18500", features:["Custom Network Design","Static IP Option","SLA by agreement"]}
+    {category:"Premium", name:"Premium 20", speed:"20 Mbps", price:"৳ XXX", features:["Fiber Internet","Premium FTP","24/7 Support"]},
+    {category:"Premium", name:"Premium 30", speed:"30 Mbps", price:"৳ XXX", features:["Fiber Internet","Premium FTP","Low Latency"]},
+    {category:"Premium", name:"Premium 50", speed:"50 Mbps", price:"৳ XXX", features:["Fiber Internet","Priority Support","Multiple Devices"]},
+    {category:"SME", name:"SME 10", speed:"10 Mbps", price:"৳ XXX", features:["Business Connectivity","FTP Access","Support"]},
+    {category:"SME", name:"SME 20", speed:"20 Mbps", price:"৳ XXX", features:["Business Connectivity","Static IP Option","Priority Support"]},
+    {category:"SME", name:"SME 30", speed:"30 Mbps", price:"৳ XXX", features:["Business Connectivity","Static IP Option","Priority Support"]},
+    {category:"Corporate", name:"Corporate 50", speed:"50 Mbps", price:"৳ XXX", features:["Business-grade Internet","Static IP Option","Technical Support"]},
+    {category:"Corporate", name:"Corporate 100", speed:"100 Mbps", price:"৳ XXX", features:["Scalable Bandwidth","Static IP Option","Priority Support"]},
+    {category:"Corporate", name:"Corporate 200", speed:"200 Mbps", price:"৳ XXX", features:["Custom Network Design","Static IP Option","SLA by agreement"]}
   ],
 
   leadership: [

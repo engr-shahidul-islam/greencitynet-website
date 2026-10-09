@@ -69,5 +69,28 @@ document.addEventListener("DOMContentLoaded",()=>{
     if(!url || url==="#"){e.preventDefault();alert(`Please add the real ${link.dataset.label||'server'} URL in ftp-server.html before publishing.`);return;}
     link.href=url; link.target="_blank"; link.rel="noopener noreferrer";
   }));
-  document.querySelectorAll("form[data-demo]").forEach(f=>f.addEventListener("submit",e=>{e.preventDefault();alert("Demo form submitted. Connect this form to your secure backend before production.");}));
+  document.querySelectorAll("form[data-formspree]").forEach(form=>form.addEventListener("submit",async e=>{
+    e.preventDefault();
+    const button=form.querySelector('button[type="submit"]');
+    const status=form.querySelector("[data-form-status]");
+    const originalText=button?.innerHTML;
+    if(status){status.textContent="Sending…";status.className="form-status is-sending";}
+    if(button){button.disabled=true;button.setAttribute("aria-busy","true");button.textContent="Sending…";}
+    try{
+      const response=await fetch(form.action,{method:"POST",body:new FormData(form),headers:{"Accept":"application/json"}});
+      let result={};
+      try{result=await response.json();}catch(_){ }
+      if(response.ok){
+        if(status){status.textContent="Thank you! Your submission was sent successfully.";status.className="form-status is-success";}
+        form.reset();
+      }else{
+        const details=Array.isArray(result.errors)?result.errors.map(x=>x.message).join(" "):"Please check the form and try again.";
+        if(status){status.textContent="Sorry, your submission could not be sent. "+details;status.className="form-status is-error";}
+      }
+    }catch(_){
+      if(status){status.textContent="Network error. Please check your internet connection and try again.";status.className="form-status is-error";}
+    }finally{
+      if(button){button.disabled=false;button.removeAttribute("aria-busy");button.innerHTML=originalText;}
+    }
+  }));
 });
