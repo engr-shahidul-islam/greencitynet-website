@@ -2,15 +2,15 @@ window.GCN = {
   company: {
     name: "GREEN CITY NET",
     tagline: "Most Trusted Broadband of Gazipur",
-    address: "Degerchala, Gazipur City Corporation, Gazipur 1704, Bangladesh"
+    address: "58, Samsul Haque Villa, Degerchala, Gazipur City Corporation, Gazipur 1704, Bangladesh"
   },
   socialLinks: {
     facebook: "#", youtube: "#", whatsapp: "#", linkedin: "#"
   },
   contact: {
-    phone: "01XXXXXXXXX", email: "info@greencitynet.example"
+    phone: "096-58-393946", email: "info@greencitynet.com"
   },
-  coverage: ["Hariken", "Degerchala Road", "Amazing Fashion Ltd. Area", "Hanapukur", "Zajhor", "Moiran", "Hajir Pukur", "Degerchala", "Gazipur City Corporation"],
+  coverage: ["Hariken", "Degerchala Road", "Amazing Fashion Ltd. Area", "Bou Bazar", "Hana Pukur", "Hajir Pukur", "Zajhor", "Bot Tola Road", "Mogarkhal"],
   networkCredentials: {
     licence: "BTRC-licensed Internet Service Provider",
     iig: "Layer 3 IIG connectivity",
@@ -18,20 +18,20 @@ window.GCN = {
     note: "Upstream availability and routing may vary by service area and network configuration."
   },
   oneCountryPackages: [
-    {name:"GCN 20", speed:"20 Mbps", price:"৳ XXX", features:["Fiber Internet", "Local FTP Access", "Standard Support"]},
-    {name:"GCN 30", speed:"30 Mbps", price:"৳ XXX", features:["Fiber Internet", "Local FTP Access", "Multiple Device Support"]},
-    {name:"GCN 50", speed:"50 Mbps", price:"৳ XXX", features:["Fiber Internet", "Premium FTP Access", "Priority Support"]}
+    {name:"GCN 20", speed:"20 Mbps", price:"৳ 500", features:["Fiber Internet", "Local FTP Access", "Standard Support"]},
+    {name:"GCN 30", speed:"30 Mbps", price:"৳ 600", features:["Fiber Internet", "Local FTP Access", "Multiple Device Support"]},
+    {name:"GCN 50", speed:"50 Mbps", price:"৳ 800", features:["Fiber Internet", "Premium FTP Access", "Priority Support"]}
   ],
   packages: [
-    {category:"Premium", name:"Premium 20", speed:"20 Mbps", price:"৳ XXX", features:["Fiber Internet","Premium FTP","24/7 Support"]},
-    {category:"Premium", name:"Premium 30", speed:"30 Mbps", price:"৳ XXX", features:["Fiber Internet","Premium FTP","Low Latency"]},
-    {category:"Premium", name:"Premium 50", speed:"50 Mbps", price:"৳ XXX", features:["Fiber Internet","Priority Support","Multiple Devices"]},
-    {category:"SME", name:"SME 10", speed:"10 Mbps", price:"৳ XXX", features:["Business Connectivity","FTP Access","Support"]},
-    {category:"SME", name:"SME 20", speed:"20 Mbps", price:"৳ XXX", features:["Business Connectivity","Static IP Option","Priority Support"]},
-    {category:"SME", name:"SME 30", speed:"30 Mbps", price:"৳ XXX", features:["Business Connectivity","Static IP Option","Priority Support"]},
-    {category:"Corporate", name:"Corporate 50", speed:"50 Mbps", price:"৳ XXX", features:["Business-grade Internet","Static IP Option","Technical Support"]},
-    {category:"Corporate", name:"Corporate 100", speed:"100 Mbps", price:"৳ XXX", features:["Scalable Bandwidth","Static IP Option","Priority Support"]},
-    {category:"Corporate", name:"Corporate 200", speed:"200 Mbps", price:"৳ XXX", features:["Custom Network Design","Static IP Option","SLA by agreement"]}
+    {category:"Premium", name:"Premium 20", speed:"20 Mbps", price:"৳ 600", features:["Fiber Internet","Premium FTP","24/7 Support"]},
+    {category:"Premium", name:"Premium 40", speed:"40 Mbps", price:"৳ 800", features:["Fiber Internet","Premium FTP","Low Latency"]},
+    {category:"Premium", name:"Premium 60", speed:"60 Mbps", price:"৳ 1000", features:["Fiber Internet","Priority Support","Multiple Devices"]},
+    {category:"SME", name:"SME 40", speed:"40 Mbps", price:"৳ 2000", features:["Business Connectivity","FTP Access","Support"]},
+    {category:"SME", name:"SME 70", speed:"70 Mbps", price:"৳ 3500", features:["Business Connectivity","Static IP Option","Priority Support"]},
+    {category:"SME", name:"SME 100", speed:"100 Mbps", price:"৳ 5000", features:["Business Connectivity","Static IP Option","Priority Support"]},
+    {category:"Corporate", name:"Corporate 50", speed:"50 Mbps", price:"৳ 5000", features:["Business-grade Internet","Static IP Option","Technical Support"]},
+    {category:"Corporate", name:"Corporate 100", speed:"100 Mbps", price:"৳ 8000", features:["Scalable Bandwidth","Static IP Option","Priority Support"]},
+    {category:"Corporate", name:"Corporate 200", speed:"200 Mbps", price:"৳ 14000", features:["Custom Network Design","Static IP Option","SLA by agreement"]}
   ],
 
   leadership: [
@@ -39,8 +39,8 @@ window.GCN = {
     {name:"Shahidul Islam", photo:"assets/images/team/shahidul-islam.jpg", role:"Managing Director", dept:"Leadership", education:"BCSE, IUBAT", experience:"7 years experience (as provided)", bio:"Managing Director with experience in Cisco, MikroTik, servers and OLT/network systems.", responsibilities:["Network operations","Technical planning","Service delivery management"], skills:["Cisco","MikroTik","Servers","OLT"]}
   ],
   team: [
-    {name:"Team Member 1", photo:"assets/images/team/team1.jpg", role:"Marketing Officer", dept:"Marketing", education:"Add education details", experience:"Add experience details", bio:"Add this staff member’s professional introduction here.", responsibilities:["Marketing campaigns","Customer communication","Brand promotion"], skills:["Marketing","Communication","Customer Relations"]},
-    {name:"Team Member 2", photo:"assets/images/team/team2.jpg", role:"Field & Cable Technician", dept:"Technical", education:"Add education details", experience:"Add experience details", bio:"Add this staff member’s professional introduction here.", responsibilities:["Fiber/cable installation","Customer connections","Field troubleshooting"], skills:["Fiber Installation","Cable Work","Field Support"]},
+    {name:"Rakibul Islal", photo:"assets/images/team/team1.jpg", role:"Marketing Officer", dept:"Marketing", education:"Add education details", experience:"Add experience details", bio:"Add this staff member’s professional introduction here.", responsibilities:["Marketing campaigns","Customer communication","Brand promotion"], skills:["Marketing","Communication","Customer Relations"]},
+    {name:"Azizul Haque", photo:"assets/images/team/team2.jpg", role:"Field & Cable Technician", dept:"Technical", education:"Add education details", experience:"Add experience details", bio:"Add this staff member’s professional introduction here.", responsibilities:["Fiber/cable installation","Customer connections","Field troubleshooting"], skills:["Fiber Installation","Cable Work","Field Support"]},
     {name:"Team Member 3", photo:"assets/images/team/team3.jpg", role:"Network Support Staff", dept:"Technical", education:"Add education details", experience:"Add experience details", bio:"Add this staff member’s professional introduction here.", responsibilities:["Network monitoring","Basic troubleshooting","Technical support"], skills:["Networking","Troubleshooting","Customer Support"]},
     {name:"Team Member 4", photo:"assets/images/team/team4.jpg", role:"Customer Support Staff", dept:"Customer Support", education:"Add education details", experience:"Add experience details", bio:"Add this staff member’s professional introduction here.", responsibilities:["Customer inquiries","Service coordination","Support follow-up"], skills:["Communication","Customer Service","Coordination"]}
   ],

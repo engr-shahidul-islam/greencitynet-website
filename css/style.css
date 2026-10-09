@@ -154,3 +154,55 @@ form{display:grid;gap:15px}.form-grid{display:grid;grid-template-columns:1fr 1fr
 .form-status.is-success{padding:12px 14px;border-radius:12px;background:#e9f8ed;border:1px solid #b8e4c3;color:#176534}
 .form-status.is-error{padding:12px 14px;border-radius:12px;background:#fff0f0;border:1px solid #f2c2c2;color:#9b2020}
 button[type="submit"]:disabled{opacity:.7;cursor:wait}
+
+/* Mobile navigation alignment fix: keep every menu label, including Coverage, inside the dropdown */
+@media (max-width: 900px) {
+  .site-header .nav-links {
+    box-sizing: border-box;
+    min-width: 0;
+    width: auto;
+    overflow-x: hidden;
+  }
+  .site-header .nav-links a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding: 10px 12px;
+    margin: 0;
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+  }
+}
+
+
+/* Final mobile menu consistency fix: Coverage should look and align exactly like the other menu items */
+@media (max-width: 900px) {
+  .site-header .nav-links a.coverage-nav-link,
+  .site-header .nav-links a.coverage-nav-link:hover,
+  .site-header .nav-links a.coverage-nav-link.active {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+    letter-spacing: normal !important;
+    color: inherit !important;
+    opacity: .9 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 10px 12px !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+  .site-header .nav-links a.coverage-nav-link:hover,
+  .site-header .nav-links a.coverage-nav-link.active { color: var(--lime) !important; }
+}
