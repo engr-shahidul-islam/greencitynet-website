@@ -1,0 +1,7 @@
+COVERAGE AREA DETAIL DEMO
+
+The percentages in js/coverage.js are illustrative sample values used only to demonstrate the professional coverage-area details UI. They are not measured or verified GREEN CITY NET coverage statistics.
+
+Before publishing to customers, replace each `percent` value with verified data from your network/field survey, or remove the percentage indicator if no defensible measurement exists. Keep the explanatory note in coverage.html until values are verified.
+
+Area cards expand to show area profile, services to enquire about, availability note, technology enquiry type, and a contact link prefilled with the area name.
